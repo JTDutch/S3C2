@@ -8,7 +8,7 @@ resource "aws_vpc" "main" {
 
   tags = {
     Name        = "soar-vpc"
-    Environment = var.environment
+    Environment = "dev"
   }
 }
 
